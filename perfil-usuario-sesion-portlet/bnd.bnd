@@ -1,0 +1,4 @@
+Bundle-Name: perfil-usuario-sesion-portlet
+Bundle-SymbolicName: perfil.usuario.sesion.portlet
+Bundle-Version: 1.0.0
+Export-Package: perfil.usuario.sesion.portlet.constants

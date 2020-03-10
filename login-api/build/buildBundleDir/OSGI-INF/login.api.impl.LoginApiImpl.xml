@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="login.api.impl.LoginApiImpl">
+  <service>
+    <provide interface="login.api.api.LoginApi"/>
+  </service>
+  <reference name="api" interface="utils.api.api.UtilsApi" field="api"/>
+  <implementation class="login.api.impl.LoginApiImpl"/>
+</scr:component>

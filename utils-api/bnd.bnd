@@ -1,0 +1,23 @@
+Bundle-Name: utils-api
+Bundle-SymbolicName: utils.api
+Bundle-Version: 1.0.0
+Export-Package: utils.api.api,\
+	utils.api.impl
+Bundle-ClassPath: \
+	.,\
+	META-INF\lib\httpclient.jar,\
+	META-INF\lib\httpcore.jar,\
+	META-INF\lib\commons-codec.jar,\
+	META-INF\lib\java-jwt.jar,\
+	META-INF\lib\jackson-annotations.jar,\
+	META-INF\lib\jackson-core.jar,\
+	META-INF\lib\jackson-databind.jar
+-includeresource: \
+	META-INF\lib\httpclient.jar=httpclient-4.5.5.jar,\
+	META-INF\lib\httpcore.jar=httpcore-4.4.9.jar,\
+	META-INF\lib\commons-codec.jar=commons-codec-1.10.jar,\
+	META-INF\lib\java-jwt.jar=java-jwt-3.8.3.jar,\
+	META-INF\lib\jackson-annotations.jar=jackson-annotations-2.10.1.jar,\
+	META-INF\lib\jackson-core.jar=jackson-core-2.10.1.jar,\
+	META-INF\lib\jackson-databind.jar=jackson-databind-2.10.1.jar
+	

@@ -1,0 +1,4 @@
+Bundle-Name: consulta-general-portlet
+Bundle-SymbolicName: consulta.general.portlet
+Bundle-Version: 1.0.0
+Export-Package: consulta.general.portlet.constants
